@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.8.8 on win32)" generated="20211211 13:04:12.980" rpa="false" schemaversion="2">
+<suite id="s1" name="Valid Login" source="D:\_SchoolRelated\3rd_Year-1st_Term\STSWENG\SauceDemoRobot\tests\valid_login.robot">
+<test id="s1-t1" name="Valid Login">
+<kw name="Open Browser To Login Page">
+<msg timestamp="20211211 13:04:13.007" level="FAIL">No keyword with name 'Open Browser To Login Page' found.</msg>
+<status status="FAIL" starttime="20211211 13:04:13.007" endtime="20211211 13:04:13.007"/>
+</kw>
+<kw name="Input Username">
+<status status="NOT RUN" starttime="20211211 13:04:13.008" endtime="20211211 13:04:13.008"/>
+</kw>
+<kw name="Input Pass">
+<status status="NOT RUN" starttime="20211211 13:04:13.009" endtime="20211211 13:04:13.009"/>
+</kw>
+<kw name="Submit Credentials">
+<status status="NOT RUN" starttime="20211211 13:04:13.011" endtime="20211211 13:04:13.011"/>
+</kw>
+<kw name="Product Page Should Be Open">
+<status status="NOT RUN" starttime="20211211 13:04:13.012" endtime="20211211 13:04:13.012"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg timestamp="20211211 13:04:13.013" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20211211 13:04:13.013" endtime="20211211 13:04:13.013">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20211211 13:04:13.005" endtime="20211211 13:04:13.014">No keyword with name 'Open Browser To Login Page' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-t2" name="Locked Out Login">
+<kw name="Open Browser To Login Page">
+<msg timestamp="20211211 13:04:13.016" level="FAIL">No keyword with name 'Open Browser To Login Page' found.</msg>
+<status status="FAIL" starttime="20211211 13:04:13.016" endtime="20211211 13:04:13.016"/>
+</kw>
+<kw name="Input Username">
+<status status="NOT RUN" starttime="20211211 13:04:13.018" endtime="20211211 13:04:13.018"/>
+</kw>
+<kw name="Input Pass">
+<status status="NOT RUN" starttime="20211211 13:04:13.019" endtime="20211211 13:04:13.019"/>
+</kw>
+<kw name="Submit Credentials">
+<status status="NOT RUN" starttime="20211211 13:04:13.020" endtime="20211211 13:04:13.020"/>
+</kw>
+<kw name="Error Message">
+<status status="NOT RUN" starttime="20211211 13:04:13.021" endtime="20211211 13:04:13.021"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg timestamp="20211211 13:04:13.022" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20211211 13:04:13.022" endtime="20211211 13:04:13.022">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20211211 13:04:13.015" endtime="20211211 13:04:13.023">No keyword with name 'Open Browser To Login Page' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>A test suite with a single test for valid login
+
+This test follows the example using keywords from
+the SeleniumLibrary</doc>
+<status status="FAIL" starttime="20211211 13:04:12.981" endtime="20211211 13:04:13.025"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Valid Login">Valid Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20211211 13:04:13.003" level="ERROR">Error in file 'D:\_SchoolRelated\3rd_Year-1st_Term\STSWENG\SauceDemoRobot\tests\valid_login.robot' on line 6: Importing library 'resources.robot' failed: ModuleNotFoundError: No module named 'resources'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\redmi\Anaconda3\Scripts
+  C:\Users\redmi\Anaconda3\python38.zip
+  C:\Users\redmi\Anaconda3\DLLs
+  C:\Users\redmi\Anaconda3\lib
+  C:\Users\redmi\Anaconda3
+  C:\Users\redmi\Anaconda3\lib\site-packages
+  C:\Users\redmi\Anaconda3\lib\site-packages\locket-0.2.1-py3.8.egg
+  C:\Users\redmi\Anaconda3\lib\site-packages\win32
+  C:\Users\redmi\Anaconda3\lib\site-packages\win32\lib
+  C:\Users\redmi\Anaconda3\lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>
